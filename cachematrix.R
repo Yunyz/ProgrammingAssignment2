@@ -2,6 +2,8 @@
 ## If the content of the matrix has not been changed, the functions can look up
 ## the inverse  of the matrix in the cache and return it directly when we need
 ## it rather than recompute the result.
+## If new content of a matrix is given, the functions will calculate the new inverse
+## and store it in the cache.
 
 ## The "makeCacheMatrix" function creates an object containing a list of functions
 ## to:
